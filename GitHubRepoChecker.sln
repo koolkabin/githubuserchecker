@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubRepoChecker", "GitHubRepoChecker\GitHubRepoChecker.csproj", "{CDBD2B5F-523C-4E7B-86A0-7B0BA68E7A88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainChecker", "MainChecker\MainChecker.csproj", "{83465AB8-34D4-4F20-9C39-9A58347EA70B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDBD2B5F-523C-4E7B-86A0-7B0BA68E7A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBD2B5F-523C-4E7B-86A0-7B0BA68E7A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBD2B5F-523C-4E7B-86A0-7B0BA68E7A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBD2B5F-523C-4E7B-86A0-7B0BA68E7A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83465AB8-34D4-4F20-9C39-9A58347EA70B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83465AB8-34D4-4F20-9C39-9A58347EA70B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83465AB8-34D4-4F20-9C39-9A58347EA70B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83465AB8-34D4-4F20-9C39-9A58347EA70B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14A6F704-D03E-4BD9-9E1D-23350030D7E1}
+	EndGlobalSection
+EndGlobal
