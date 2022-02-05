@@ -31,7 +31,7 @@ namespace MainChecker.Models
         public string blog { get; set; }
         public string location { get; set; }
         public object email { get; set; }
-        public bool hireable { get; set; }
+        public bool? hireable { get; set; }
         public string bio { get; set; }
         public object twitter_username { get; set; }
         public int public_repos { get; set; }

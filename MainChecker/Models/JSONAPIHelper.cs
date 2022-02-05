@@ -13,6 +13,7 @@ namespace MainChecker.Models
         public static async Task<T> ReadUrlAsync(string url)
         {
             var httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.UserAgent.Add(new System.Net.Http.Headers.ProductInfoHeaderValue("KoolGitHub", "1.0")); // set your own values here
             var response = await httpClient.GetAsync(url);
 
             //will throw an exception if not successful
